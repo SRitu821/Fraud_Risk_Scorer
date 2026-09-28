@@ -320,6 +320,3 @@ Fraud_Risk_Scorer/
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
