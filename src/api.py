@@ -39,9 +39,16 @@ from contextlib import asynccontextmanager
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Ensure database is initialized on startup."""
+    """Ensure database is initialized and seeded on startup."""
     init_db(DB_PATH)
+    try:
+        stats = get_dashboard_stats(DB_PATH)
+        if stats.get("total_returns", 0) == 0:
+            generate_synthetic_data(num_customers=500, verbose=False)
+    except Exception:
+        pass
     yield
+
 
 app = FastAPI(
     title="Return & Exchange Fraud Risk Scorer API",
