@@ -6,9 +6,6 @@
 [![Pytest](https://img.shields.io/badge/tests-22%20passed-success.svg)](https://docs.pytest.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **🌐 Live Deployment**:
-> - **Interactive Web Dashboard**: [https://fraud-risk-scorer-y872.onrender.com](https://fraud-risk-scorer-y872.onrender.com)
-> - **Interactive Swagger REST API Docs**: [https://fraud-risk-scorer-y872.onrender.com/docs](https://fraud-risk-scorer-y872.onrender.com/docs)
 
 > An automated, explainable risk-scoring decision engine and fraud operations review dashboard for e-commerce return and exchange requests. Evaluates behavioral anomalies, policy abuse patterns, and velocity spikes to instantly approve genuine returns while routing high-risk requests to fraud analysts.
 
