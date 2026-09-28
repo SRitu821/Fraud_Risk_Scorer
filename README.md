@@ -1,13 +1,19 @@
 # SentinelRisk: Product Return & Exchange Fraud Risk Scorer
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7.svg?logo=render&logoColor=white)](https://fraud-risk-scorer-y872.onrender.com)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Pytest](https://img.shields.io/badge/tests-22%20passed-success.svg)](https://docs.pytest.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> **🌐 Live Deployment**:
+> - **Interactive Web Dashboard**: [https://fraud-risk-scorer-y872.onrender.com](https://fraud-risk-scorer-y872.onrender.com)
+> - **Interactive Swagger REST API Docs**: [https://fraud-risk-scorer-y872.onrender.com/docs](https://fraud-risk-scorer-y872.onrender.com/docs)
+
 > An automated, explainable risk-scoring decision engine and fraud operations review dashboard for e-commerce return and exchange requests. Evaluates behavioral anomalies, policy abuse patterns, and velocity spikes to instantly approve genuine returns while routing high-risk requests to fraud analysts.
 
 ---
+
 
 ## 📌 Problem & Business Context
 
@@ -134,15 +140,17 @@ Output:
 
 ### 3. Launch Server & Web Dashboard
 
-Start the application:
+You can access the live cloud deployment or run locally:
+- **🌐 Live Cloud Dashboard**: [https://fraud-risk-scorer-y872.onrender.com/](https://fraud-risk-scorer-y872.onrender.com/)
+- **🌐 Live Swagger REST API**: [https://fraud-risk-scorer-y872.onrender.com/docs](https://fraud-risk-scorer-y872.onrender.com/docs)
 
+To run locally:
 ```bash
 python run.py serve
 ```
+- Local Web Dashboard: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+- Local Swagger API: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-Open your browser:
-- **Interactive Review Dashboard**: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-- **Swagger REST API Documentation**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ### 4. Run Automated Test Suite
 
